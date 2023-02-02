@@ -1,0 +1,62 @@
+.row1 {
+  display: flex;
+  position: relative;
+}
+section {
+  max-width: 1000px;
+}
+.row2 {
+  display: flex;
+  text-align: center;
+}
+body {
+  padding: 50px;
+}
+.namerow3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.massrow3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.row1 div,
+.namerow3 div,
+.row2 div {
+  flex: 1;
+  border: 1px solid;
+  margin: -1px;
+  margin-right: 0px;
+  margin-left: ;
+  margin-top: -1px;
+  min-width: 80px;
+  padding: 0px;
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+}
+.jovian div,
+.jovian2 div {
+  border: none;
+  border-bottom: 1px solid black;
+}
+.whole {
+  display: flex;
+  flex-direction: column;
+  min-width: 820px;
+}
+.jovian {
+  display: flex;
+}
+.row2jov {
+  display: flex;
+  flex: 1;
+}
+.jovian2 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
