@@ -1,0 +1,69 @@
+body {
+  padding: 50px;
+  font-size: 18px;
+}
+
+.one {
+  display: flex;
+}
+section {
+  display: block;
+}
+.row2left {
+  flex: 1;
+  background-color: aqua;
+}
+.row2right {
+  flex: 1;
+}
+select {
+  width: 28%;
+  margin: 5px;
+  padding: 5px;
+  margin-left: 0px;
+  font-size: 18px;
+}
+input {
+  width: 90%;
+  padding: 5px;
+}
+.performance-left select,
+.performance-right select {
+  width: 40%;
+}
+.performance-left {
+  flex: 1;
+  background-color: rgb(216, 197, 235);
+  margin-right: 20px;
+  padding: 10px;
+}
+.performance-right {
+  background-color: rgb(216, 197, 235);
+  flex: 1;
+  padding: 20px;
+}
+.row1 {
+  margin: 10px;
+}
+p {
+  margin: 0px;
+  display: block;
+}
+.row1col1 {
+  flex: 1;
+  background-color: rgb(216, 197, 235);
+  margin-right: 20px;
+  padding: 10px;
+}
+.row1col2 {
+  background-color: rgb(216, 197, 235);
+  flex: 1;
+  padding: 20px;
+}
+.inputs {
+  max-width: 1500px;
+  height: 160px;
+}
+.button {
+  width: 15%;
+}
